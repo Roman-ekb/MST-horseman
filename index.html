@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horse club</title>
+    <link rel="stylesheet" href="css\styles.css">
+    <link rel="preload" href="fonts\prata-regular.woff2" type="font/woff2" as="font" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="page-container">
+        <header class="header">
+            <div class="header__main-navigation-wrapper">
+                <nav class="header__main-navigation main-navigation main-navigation--closed main-navigation--nojs">
+                    <span class="header__name">Horseman</span>
+                    <button class="main-navigation__toggle" type="button"><span class="visually-hidden">Open menu.</span><img class="main-navigation__toggle-icon" src="img/style/horse.svg" alt=""
+                            width="20" height="20"></button>
+                    <ul class="main-navigation__list">
+                        <li class="main-navigation__item">
+                            <a class="main-navigation__link" href="#Price">Price</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a class="main-navigation__link" href="#Advantages">Advantages</a>
+                        </li>
+                        <li class="main-navigation__item">
+                            <a class="main-navigation__link" href="#application-form">Application form</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <section class="main-header__banner banner">
+                <img class="banner__image" src="img/img1.jpeg" alt="Horse club." width="763" height="1009">
+                <div class="banner__info" id="Price">
+                    <h1 class="banner__title">Equestrian club Horseman</h1>
+                    <p class="banner__text">our services:</p>
+                    <ul class="banner__list">
+                        <li class="banner__list-item"><img class="banner__list-icon" src="img/style/check.svg"
+                                width="39" height="37" alt="">
+                            <p class="banner__list-text">horseback riding: &nbsp;<span class="banner__list-price">50$
+                                    &nbsp;</span> per hour</p>
+                        </li>
+                        <li class="banner__list-item"><img class="banner__list-icon" src="img/style/check.svg"
+                                width="39" height="37" alt="">
+                            <p class="banner__list-text">photo shoots: &nbsp;<span class="banner__list-price"> 70$
+                                    &nbsp;</span> per hour</p>
+                        </li>
+                        <li class="banner__list-item"><img class="banner__list-icon" src="img/style/check.svg"
+                                width="39" height="37" alt="">
+                            <p class="banner__list-text">horse maintenance: &nbsp;<span class="banner__list-price"> 300$
+                                    &nbsp;</span> per month</p>
+                        </li>
+                    </ul>
+                    <button class="banner__button">ORDER</button>
+                </div>
+
+                </img>
+
+            </section>
+        </header>
+        <main class="main">
+            <section class="main__advantages advantages">
+                <img class="advantages__image" src="img/horseback-riding1.jpeg" alt="Group horseback riding."
+                    width="622" height="724">
+                <div class="advantages__list-wrapper" id="Advantages">
+                    <ul class="advantages__list">
+                        <li class="advantages__item">
+                            <p class="advantages__text">Scenic walking routes outside the city.</p>
+                        </li>
+                        <li class="advantages__item">
+                            <p class="advantages__text">Calm horses, for beginners.</p>
+                        </li>
+                        <li class="advantages__item">
+                            <p class="advantages__text">Pony rides for children.</p>
+                        </li>
+                    </ul>
+                    <button class="advantages__button">ORDER</button>
+                </div>
+                <img class="advantages__image" src="img/horseback-riding2.jpeg" alt="Group horseback riding."
+                    width="622" height="724">
+            </section>
+            <section class="main__application-form application-form" id="application-form">
+                <div class="application-form__container container">
+                    <form action="" method="post">
+                        <fieldset class="application-form__group">
+                            <legend class="application-form__title">Write to us</legend>
+                            <p class="application-form__text">Send a request</p>
+                            <div class="application-form__input-group">
+                                <div class="application-form__input application-form__input--name">
+                                    <label for="name">
+                                        <span
+                                            class="application-form__label-text application-form__label-text--input">Name</span>
+                                        <input name="name" id="name" required>
+                                    </label>
+                                </div>
+                                <div class="application-form__input application-form__input--mail">
+                                    <label for="mail">
+                                        <span
+                                            class="application-form__label-text application-form__label-text--input">E&#8209;mail</span>
+                                        <input name="mail" id="mail" required>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="application-form__policy">
+                                <label for="policy">
+                                    <input type="checkbox" name="policy" id="policy" required>
+                                    <span class="application-form__label-text application-form__label-text--checkbox">I
+                                        agree to the processing of my personal
+                                        data</span>
+                                </label>
+                            </div>
+                            <button class="application-form__button" type="submit">
+                                submit form
+                            </button>
+                        </fieldset>
+                    </form>
+                    <img class="application-form__image" src="img/form-img.jpeg" alt="Write to us."></img>
+                </div>
+            </section>
+        </main>
+        <footer class="footer">
+            <nav class="footer__navigation">
+                <ul class="footer__navigation__list">
+                    <li class="footer__navigation__item">
+                        <a class="footer__navigation__link" href="#Price">Price</a>
+                    </li>
+                    <li class="footer__navigation__item">
+                        <a class="footer__navigation__link" href="#Advantages">Advantages</a>
+                    </li>
+                    <li class="footer__navigation__item">
+                        <a class="footer__navigation__link" href="#application-form">Application form</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="footer__info footer__info--raw1">
+                <span class="footer__name">Horseman</span>
+                <section class="footer__social social">
+                    <h2 class="visually-hidden">Our socials</h2>
+                    <ul class="social__list">
+                        <li class="social__item social__item--vk">
+                            <a class="social__link social__link--instagram" href="#!"><span
+                                    class="visually-hidden">Instagram.</span><img class="social__icon social__icon--instagram" src="/img/style/instagram-icons.svg" alt="instagram" width="32" height="32"></a>
+                        </li>
+                        <li class="social__item social__item--telegram">
+                            <a class="social__link social__link--telegram" href="#!"><span
+                                    class="visually-hidden">Telegram.</span><img class="social__icon social__icon--telegram" src="/img/style/telegram-icon.svg" alt="telegram" width="32" height="32"></a>
+                        </li>
+                        <li class="social__item social__item--youtube">
+                            <a class="social__link social__link--youtube" href="#!"><span
+                                    class="visually-hidden">Youtube.</span><img class="social__icon social__icon--youtube" src="/img/style/youtube-icon.svg" alt="youtube" width="32" height="32"></a>
+                        </li>
+                    </ul>
+                </section>
+                <button class="footer__button">ORDER</button>
+            </div>
+            <div class="footer__info footer__info--raw2">
+                <span>© 2024, Copyright.</span>
+                <a href="#!">Privacy policy</a>
+                <a href="#!">Terms of Use</a>
+            </div>
+
+        </footer>
+    </div>
+    <script src="js/main.js" type="module"></script>
+</body>
+
+</html>
