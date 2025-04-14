@@ -492,7 +492,7 @@ main {
 }
 
 .advantages__item::before {
-    content: url('/img/style/advantages-icon.svg');
+    content: url('../img/style/advantages-icon.svg');
 }
 
 .advantages__item:not(:last-child) {
